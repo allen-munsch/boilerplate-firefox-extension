@@ -2,6 +2,8 @@
 
 A simple Firefox extension that demonstrates messaging between popup, background script, and content script using manifest V3.
 
+No build packs, no transpiling, no fluff, just javscript, json, css, html.
+
 ## Installation
 
 1. Open Firefox
