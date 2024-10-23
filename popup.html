@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Hello World Extension</h2>
+  <button id="sayHello">Say Hello</button>
+  <button id="sayBye">Say Bye</button>
+  <div id="response"></div>
+
+  <script type="module" src="src/messages.mjs"></script>
+  <script type="module" src="src/messenger.mjs"></script>
+  <script type="module" src="src/popup.mjs"></script>
+</body>
+</html>
